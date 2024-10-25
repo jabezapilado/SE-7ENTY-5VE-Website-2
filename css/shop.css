@@ -1,0 +1,157 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-5 {
+  position: relative;
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25),
+                                      rgba(0, 0, 0, 0.25)), url(../assets/images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1050px) {
+  .home-5 {
+    height: auto;
+    gap: 355px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .home-5 {
+    gap: 237px;
+  }
+}
+
+.Navbar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.Nav-links {
+  display: flex;
+  gap: 50px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1.1px;
+  margin: 10px 0;
+}
+
+.Nav-links li {
+  list-style: none;
+}
+
+.Nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.Nav-links a:hover {
+  color: #ccc;
+}
+
+.headerlogo_one {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.Footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.social-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-1 .icon {
+  width: 30px;
+  height: 30px;
+}
+
+.social-1 .spotify-logo {
+  width: 13px;
+  height: 13px;
+  object-fit: contain;
+}
+
+.social-1 .youtube-logo {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.social-1 a img:hover {
+  transform: scale(1.1);
+  color: #ccc;
+}
+
+.logo-text a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 9.15px;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.Content {
+  font-family: 'Futura', sans-serif;
+  flex: 1;
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  justify-content: center; 
+  align-items: flex-start; 
+}
+
+.Content h1 {
+  font-size: 30px;
+  margin-top: 150px;
+  top: 150px;
+  text-align: center;
+}
+  
+.Content p {
+  margin: 0 70px;
+  font-size: 25px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+  
+  
